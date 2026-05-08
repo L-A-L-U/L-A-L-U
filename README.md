@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <!-- HEADER ANIMADO -->
@@ -22,14 +23,14 @@
 
 ```python
 class Lalu:
-    nombre     = "Luis Eduardo García Jiménez"
-    ubicacion  = "Ciudad de México, México"
+    nombre      = "Luis Eduardo García Jiménez"
+    ubicacion   = "Ciudad de México, México"
     universidad = "UNAM — Facultad de Ingeniería"
-    semestre   = "4° semestre, Ing. Computación"
-    enfoque    = ["DevSecOps", "Software", "Inteligencia Artificial"]
+    semestre    = "4° semestre, Ing. Computación"
+    enfoque     = ["DevSecOps", "Software", "Inteligencia Artificial"]
     certificacion = "CompTIA Security+ (en preparación)"
-    servidor   = "Corriendo 24/7 en hardware propio"
-    contacto   = "contacto.lalu@gmail.com"
+    servidor    = "Corriendo 24/7 en hardware propio"
+    contacto    = "contacto.lalu@gmail.com"
 ```
 
 ---
@@ -44,7 +45,7 @@ class Lalu:
 Dashboard de monitoreo de seguridad en tiempo real sobre infraestructura propia.
 
 - Detección de intrusiones SSH en vivo
-- Métricas del servidor en tiempo real  
+- Métricas del servidor en tiempo real
 - Panel interactivo para simular ataques
 - Mapa de orígenes de ataques
 
@@ -57,16 +58,16 @@ Dashboard de monitoreo de seguridad en tiempo real sobre infraestructura propia.
 <td width="50%">
 
 ### 🌐 Portfolio lalu.dev
-Portfolio interactivo con navegación por grafos con física real.
+Portfolio interactivo con física real — 9 nodos navegables que puedes arrastrar y lanzar.
 
-- Nodos navegables con física
-- Árbol de habilidades interactivo
-- Proyectos con demos en vivo
-- Infraestructura propia en Proxmox
+- Física de cuerpos rígidos con Matter.js
+- Terminal interactiva integrada (`help`, `whoami`, `skills`...)
+- Loading screen estilo hacker
+- Dark/light mode · Responsive · PWA-ready
 
-**Stack:** Next.js · FastAPI · Docker · Cloudflare
+**Stack:** HTML · Canvas API · Matter.js · Docker · Cloudflare
 
-[![WIP](https://img.shields.io/badge/🚧_EN_CONSTRUCCIÓN-lalu.dev-d97706?style=flat-square)](https://lalu.dev)
+[![Live](https://img.shields.io/badge/🟢_LIVE-lalu.dev-16a34a?style=flat-square)](https://lalu.dev)
 
 </td>
 </tr>
@@ -80,10 +81,11 @@ Portfolio interactivo con navegación por grafos con física real.
 
 **Lenguajes**
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
 **DevSecOps & Infraestructura**
 
@@ -98,6 +100,7 @@ Portfolio interactivo con navegación por grafos con física real.
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 
 </div>
 
@@ -136,7 +139,7 @@ Portfolio interactivo con navegación por grafos con física real.
           └────────────┬────────────┘
                        │
                    Internet
-              security.lalu.dev
+         lalu.dev · security.lalu.dev
 ```
 
 ---
@@ -145,11 +148,11 @@ Portfolio interactivo con navegación por grafos con física real.
 
 | Certificado | Emisor | Estado |
 |-------------|--------|--------|
-| Introduction to Linux (LFS101) | Linux Foundation | ✅ Completado |
-| Crash Course on Python | Google / Coursera | ✅ Completado |
-| Cyber Security 101 | TryHackMe | ✅ Completado |
-| Pre Security | TryHackMe | ✅ Completado |
-| CompTIA Security+ | CompTIA | 📚 En preparación |
+| Introduction to Linux (LFS101) | Linux Foundation | ✅ Completado · 2025 |
+| Crash Course on Python | Google / Coursera | ✅ Completado · 2025 |
+| Cyber Security 101 | TryHackMe | ✅ Completado · 2025 |
+| Pre Security | TryHackMe | ✅ Completado · 2025 |
+| CompTIA Security+ SY0-701 | CompTIA | 📚 En preparación · 2026 |
 
 ---
 
@@ -170,12 +173,13 @@ Portfolio interactivo con navegación por grafos con física real.
 
 ```
 ✅ Cloudflare WAF + DDoS protection
-✅ fail2ban — bloqueo automático de IPs atacantes  
-✅ UFW Firewall — solo puertos 22 y 80 expuestos
+✅ fail2ban — bloqueo automático de IPs atacantes
+✅ UFW Firewall — solo puertos necesarios expuestos
 ✅ Rate limiting — 30 req/min por IP en APIs
 ✅ PostgreSQL restringido a localhost
 ✅ IPs anonimizadas en vistas públicas
 ✅ CORS restringido por dominio
+✅ Cloudflare Tunnel — cero puertos abiertos al exterior
 ```
 
 ---
@@ -184,6 +188,6 @@ Portfolio interactivo con navegación por grafos con física real.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=100&section=footer" width="100%"/>
 
-<sub>Servidor corriendo en CDMX · Uptime 99%+ · Siempre construyendo algo</sub>
+<sub>Servidor corriendo en CDMX · Uptime 99.8%+ · Siempre construyendo algo</sub>
 
 </div>
